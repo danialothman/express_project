@@ -1,0 +1,46 @@
+# Node.js
+/node_modules/
+/server/node_modules/
+/client/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+server/node_modules
+client/node_modules
+
+# Build directories
+client/build
+
+# Environment variables
+/server/.env
+
+# React specific files
+client/.next/
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.swo
+*.tmp
+
+# Test coverage
+coverage
