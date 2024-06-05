@@ -2,6 +2,30 @@
 
 Learning MERN stack
 
+## Run ths project
+
+### Start server
+
+```
+cd server/
+node server.js
+```
+
+### Start client
+
+```
+cd client/
+npm start
+
+```
+
+### Make Accessible to Anyone in the network
+
+running on windows:
+
+- add 'Inbound Rules' for port 3000 for client, port 5000 for server
+- before starting client, execute 'HOST=0.0.0.0', then 'npm start'
+
 ## ChatGPT Prompts and Chat
 
 ```
