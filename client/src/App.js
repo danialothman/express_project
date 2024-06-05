@@ -42,6 +42,16 @@ const App = () => {
       />
       <button onClick={addTask}>Add</button>
       <TaskList tasks={tasks} deleteTask={deleteTask} />
+      <br />
+      <br />
+      <br />
+      <a
+        href="https://github.com/danialothman/express_project"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub repo
+      </a>
     </div>
   );
 };
